@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "^1.18.3",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  },
+  "name": "RePrismagramBackEnd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dkxltks25/RePrismagramBackEnd.git",
+  "author": "bagjaehong <dkxltks25@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/index.js"
+  }
+}
